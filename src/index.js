@@ -8,8 +8,8 @@ import { App } from "./components/App";
 import {addTodo} from "./actions";
 
 export const store = createStore(todoApp);
-store.dispatch(addTodo('Learn about actions'))
-console.log(store.getState());
+// store.dispatch(addTodo('Learn about actions'))
+// console.log(store.getState());
 
 render(
     <Provider store={store}>

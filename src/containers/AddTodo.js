@@ -14,7 +14,6 @@ let AddTodo = ({ dispatch }) => {
                         return
                     }
                     dispatch(addTodo(input.value));
-                    console.log('erta')
                     console.log(store.getState());
                     input.value = ''
                 }}
